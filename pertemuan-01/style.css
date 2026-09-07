@@ -1,6 +1,4 @@
 body {
-    background-color: #f8f6fc;
-    color: #2d2a3e;
     padding: 0;
     margin: 0;
 }
@@ -17,7 +15,7 @@ nav {
     padding: 15px;
     text-align: center;
     background: linear-gradient(135deg, #b6a2f8 0%, #f4c2ed 100%);
-    border: 1px solid #8b72de;
+    border-bottom: 1px solid #8b72de;
     position: fixed;
     top: 0;
     right: 0;
@@ -27,7 +25,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: rgb(12, 12, 12);
+    color: black;
     margin: 0 15px;
     font-weight: 600;
 }
@@ -44,11 +42,11 @@ a {
     max-width: 500px;
     border: 2px solid #8b72de;
     border-radius: 16px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(191, 157, 227, 0.6);
 }
 
 
-.skills-grid {
+.skills-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 14px 18px;
@@ -60,9 +58,9 @@ a {
     color: #2d2a3e;
 }
 
-.skills-grid:hover {
+.skills-grid:hover, .contact-info:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(186, 140, 235, 0.6);
+    box-shadow: 10px 10px 10px rgba(191, 157, 227, 0.6);
 }
 
 .btn-link {
@@ -80,6 +78,17 @@ a {
 .btn-link:hover {
     background-color: #ac9ddc;
     color: #ffffff;
+}
+
+.contact-info {
+    margin-top: 10px 16px;
+    padding: 10px;
+    font-size: 16px;
+    color: #2d2a3e;
+    align-items: center;
+    background-color: #f4f3f8;
+    border: 1px solid #8b72de;
+    border-radius: 10px;
 }
 
 footer {
